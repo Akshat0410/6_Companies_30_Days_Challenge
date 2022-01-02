@@ -1,4 +1,4 @@
-package com.anupam.challenge.Day2;
+package com.anupam.challenge.GoldmanSachs.Day2;
 import java.util.Scanner;
 
 public class RunLengthEncoding {

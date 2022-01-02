@@ -1,4 +1,4 @@
-package com.anupam.challenge.Day2;
+package com.anupam.challenge.GoldmanSachs.Day2;
 
 //Question Count the Sub Arrays having product less than k
 

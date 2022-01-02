@@ -1,7 +1,7 @@
 
 // Question :- Overlapping Intervals
 
-package com.anupam.challenge.Day1;
+package com.anupam.challenge.GoldmanSachs.Day1;
 
 import java.util.Scanner;
 

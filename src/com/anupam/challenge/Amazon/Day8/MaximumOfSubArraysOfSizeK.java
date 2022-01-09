@@ -1,12 +1,13 @@
-package com.anupam.challenge.Amazon.Day6;
+package com.anupam.challenge.Amazon.Day8;
 
-//Question :- IPL Match - Day2
+// Question : Maximum of all sub arrays of size k
 
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class IPLMatch {
+public class MaximumOfSubArraysOfSizeK {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(), k = sc.nextInt();
@@ -15,7 +16,6 @@ public class IPLMatch {
 
         ArrayList<Integer> ans = max_of_subarrays(arr, n, k);
         System.out.println(ans);
-
     }
 
     private static ArrayList<Integer> max_of_subarrays(int[] arr, int n, int k) {
@@ -53,3 +53,4 @@ public class IPLMatch {
         return ans;
     }
 }
+

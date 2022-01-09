@@ -1,4 +1,4 @@
-package com.anupam.challenge.Amazon.Day5;
+package com.anupam.challenge.Amazon.Day6;
 
 //Question :- Maximum Profit
 

@@ -1,8 +1,9 @@
 package com.anupam.challenge.Amazon.Day9;
 
+//Question :- First non-repeating character in a stream
+
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Queue;
 import java.util.Scanner;
 
 public class FirstNonRepeatingCharacter {

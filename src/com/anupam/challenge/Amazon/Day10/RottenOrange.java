@@ -28,8 +28,6 @@ public class RottenOrange {
         int cols = grid[0].length;
         Queue<int[]> queue = new LinkedList<>();
         int count_fresh = 0;
-        //Put the position of all rotten oranges in queue
-        //count the number of fresh oranges
         for(int i = 0 ; i < rows ; i++) {
             for(int j = 0 ; j < cols ; j++) {
                 if(grid[i][j] == 2) {
@@ -43,8 +41,8 @@ public class RottenOrange {
 
         if(count_fresh == 0) return 0;
         int countMin = 0, cnt = 0;
-        int dx[] = {0, 0, 1, -1};
-        int dy[] = {1, -1, 0, 0};
+        int[] dx = {0, 0, 1, -1};
+        int[] dy = {1, -1, 0, 0};
 
         //bfs starting from initially rotten oranges
         while(!queue.isEmpty()) {
@@ -53,6 +51,7 @@ public class RottenOrange {
             for(int i = 0 ; i < size ; i++) {
                 int[] point = queue.poll();
                 for(int j = 0;j<4;j++) {
+                    assert point != null;
                     int x = point[0] + dx[j];
                     int y = point[1] + dy[j];
 

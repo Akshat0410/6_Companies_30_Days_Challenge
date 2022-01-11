@@ -1,4 +1,7 @@
 package com.anupam.challenge.Amazon.Day10;
+
+//Question :- Delete N nodes after M nodes of a linked list
+
 public class DeleteNafterMnodes {
 
     private static void linkDelete(Node head, int m, int n) {

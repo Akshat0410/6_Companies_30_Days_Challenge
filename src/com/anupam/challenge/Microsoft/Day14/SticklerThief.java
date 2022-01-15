@@ -1,4 +1,4 @@
-package com.anupam.challenge.Microsoft.Day4;
+package com.anupam.challenge.Microsoft.Day14;
 
 //Question :- Stickler Thief
 

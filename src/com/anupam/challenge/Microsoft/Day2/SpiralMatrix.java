@@ -1,5 +1,7 @@
 package com.anupam.challenge.Microsoft.Day2;
 
+//Question:- Given a matrix of size r*c. Traverse the matrix in spiral form.
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

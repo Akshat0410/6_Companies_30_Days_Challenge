@@ -1,6 +1,6 @@
 package com.anupam.challenge.Intuit.Day22;
 
-//Question :- Find the missing no in string
+//Question :- Find the missing number in string
 
 import java.util.Scanner;
 

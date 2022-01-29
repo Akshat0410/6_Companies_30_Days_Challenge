@@ -1,4 +1,4 @@
-package com.anupam.challenge.Walmart.Day2;
+package com.anupam.challenge.Walmart.Day27;
 
 //Question : - Number of Unique Paths
 

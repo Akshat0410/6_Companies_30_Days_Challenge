@@ -1,4 +1,4 @@
-package com.anupam.challenge.Walmart.Day1;
+package com.anupam.challenge.Walmart.Day26;
 
 //Question:- Path with Maximum Probability
 
